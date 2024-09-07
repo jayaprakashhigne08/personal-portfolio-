@@ -85,10 +85,11 @@ span {
   font-size: 18px;
   margin: 25px 0 30px;
 }
+
 .btn-box {
   width: 345px;
   display: flex;
-  gap: 2em;
+  gap: 3em;
 }
 .btn-1 {
   padding: 15px 28px;
@@ -143,7 +144,7 @@ span {
 }
 /*.about-img img {
   postive: relative;
-  width: 550px;
+  width: 555px;
   box-shadow: 0 0 25px orangered, 0 0 50px orangered;
   border-radius: 50%;
 }*/
@@ -168,41 +169,41 @@ span {
   margin-bottom: 1em;
   font-size: 36px;
 }
-.contact-form form{
+.contact-form form {
   max-width: 50em;
   margin: 1rem auto;
   text-align: center;
   margin-bottom: 3em;
 }
-.contact-form form .input-box{
+.contact-form form .input-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .contact-form form .input-box input,
-.contact-form form textarea{
+.contact-form form textarea {
   width: 100%;
   padding: 1.5em;
   font-size: 18px;
   color: black;
   background: rgb(241, 241, 241);
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   margin: 1rem 0;
   resize: none;
 }
-.footer{
+.footer {
   position: relative;
   bottom: 0;
   width: 100%;
   padding: 40px 0;
   background-color: black;
 }
-.footer .social{
+.footer .social {
   text-align: center;
   padding-bottom: 25px;
   color: white;
 }
-.footer .social a{
+.footer .social a {
   font-size: 24px;
   color: white;
   border: 2px solid orangered;
@@ -213,15 +214,15 @@ span {
   text-align: center;
   border-radius: 50%;
   margin: 0 8px;
-  box-shadow: inset 0 0 orangered,0 0 10px orangered;
+  box-shadow: inset 0 0 orangered, 0 0 10px orangered;
   transition: 0.3s ease;
 }
-.footer .social a:hover{
-  transform: scale(1.2)translate(-10px);
+.footer .social a:hover {
+  transform: scale(1.2) translate(-10px);
   color: orangered;
   border: 2px solid orangered;
 }
-.footer ul{
+.footer ul {
   margin-top: 0;
   padding: 0;
   font-size: 18px;
@@ -229,24 +230,21 @@ span {
   margin-bottom: 0;
   text-align: center;
 }
-.footer ul li a{
-  color:white;
+.footer ul li a {
+  color: white;
   border-bottom: 3px solid transparent;
   transition: 0.3s ease;
 }
-.footer ul li a:hover{
+.footer ul li a:hover {
   border-bottom: 3px solid orangered;
 }
-.footer ul li{
+.footer ul li {
   display: inline-block;
   padding: 0 15px;
 }
-.footer .copyright{
+.footer .copyright {
   margin-top: 15px;
   text-align: center;
   font-size: 12px;
   color: white;
 }
-
-
-
